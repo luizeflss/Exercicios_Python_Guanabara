@@ -1,0 +1,8 @@
+msg = input('Digite algo: ')
+print('O tipo primitivo desta mensagem é ',type(msg))
+print('Só tem espaços ?', msg.isspace())
+print('É um número ?', msg.isnumeric())
+msg.isupper()
+msg.isidentifier()
+msg.isalnum()
+msg.isalpha()

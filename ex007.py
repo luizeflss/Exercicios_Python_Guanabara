@@ -1,0 +1,8 @@
+print('CÁLCULO NOTAS PRIMEIRO BIMESTRE')
+print('Digite os dados necessários abaixo')
+name = input('Nome do aluno: ')
+mat1 = float(input('Caderno: '))
+mat2 = float(input('Prova: '))
+mat3 = float(input('Comportamento: '))
+matmed = ((mat1 + mat2 + mat3)/3)
+print('A média do aluno {} em matemática no primeiro bimestre é de {:.2f}.'.format(name, matmed))

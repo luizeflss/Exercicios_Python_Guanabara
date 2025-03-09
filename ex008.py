@@ -1,0 +1,5 @@
+print('SUPER MEGA BLASTER CONVERTER DE METRO PARA CM E MIL')
+metro = float(input('DIGITE O VALOR EM METROS A SER CONVERTIDO: '))
+cm = (metro*100)
+mm = (metro*1000)
+print(' VALOR EM CENTÍMETROS= {} \n VALOR EM MILÍMETROS= {}'.format(cm, mm))

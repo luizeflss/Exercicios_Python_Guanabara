@@ -1,0 +1,6 @@
+print('OFFER CALCULATOR -APLHA-')
+print('')
+price = float(input('Digite aqui o preço do produto: R$'))
+offer = float(input('Certo, agora me diga o desconto em porcentagem: '))
+newprice = (price - ((offer * price)/100))
+print('Com o desconto aplicado, este produto fica por apenas R${:.2f}'.format(newprice))

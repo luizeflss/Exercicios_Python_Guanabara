@@ -1,0 +1,7 @@
+print('SUPER TINTA COST CALCULATOR -ALPHA VERSION-')
+print('')
+larg = float(input('Me diga qual a largura da parede que deseja pintar: M'))
+alt = float(input('Perfeto, agora me diga a altura dela: M'))
+cost = ((larg*alt)/2)
+print('Sua parede possui', (larg * alt), 'm2')
+print('Será necessário {:.3} litros de tinta para pintar esta parede por inteiro'.format(cost))
