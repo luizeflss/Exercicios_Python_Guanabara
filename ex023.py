@@ -1,3 +1,4 @@
+#codigo feito apenas com meu breve conhecimento da linguagem.
 numero = str(input('Digite um número de 0 a 9999: ')).strip()
 num = int(numero)
 
@@ -30,7 +31,7 @@ if 100 < num <= 999:
     print('Este número possui: \n'
       '{} UNIDADE(S) = {}\n'
       '{} DEZENA(S) = {} \n'
-      '{} CETENA(S) = {} \n'
+      '{} CENTENA(S) = {} \n'
           .format(unidade, unidade, dezena, dezena + '0', centena, centena + '00'))
 
 if 1000 == num:
@@ -46,6 +47,6 @@ if 1000 < num <= 9999:
     print('Este número possui: \n'
       '{} UNIDADE(S) = {}\n'
       '{} DEZENA(S) = {} \n'
-      '{} CETENA(S) = {} \n'
+      '{} CENTENA(S) = {} \n'
       '{} MILHAR(ES) = {}'
           .format(unidade, unidade, dezena, dezena + '0', centena, centena + '00', milhar, milhar + '000'))
